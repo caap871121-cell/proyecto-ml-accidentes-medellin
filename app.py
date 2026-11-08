@@ -91,6 +91,7 @@ if enviar:
     datos = pd.DataFrame([{
         "fecha_siniestro": pd.Timestamp(fecha),
         "hora_siniestro": hora.strftime("%H:%M:%S"),
+        "hora": hora.hour,
         "dia": dia,
         "mes": mes,
         "anio": anio,
